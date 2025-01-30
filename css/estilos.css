@@ -92,3 +92,46 @@ main .buscador input {
 main .buscador input:hover {
     outline: none;
 }
+
+/** ===== Sección Tendencias ===== **/
+main .tendencias {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    text-align: start;
+}
+
+main .tendencias-contenido {
+    padding: 16px;
+    border: 1px solid var(--color-gris-5b);
+    border-radius: 8px;
+}
+
+main .tendencias-contenido h3 {
+    font-weight: normal;
+    color: #232a31;
+}
+
+main .tendencias-contenido ol {
+    padding-left: 25px;
+    margin-top: 20px;
+    height: 200px;
+    width: 442px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+}
+
+main .tendencias-contenido a {
+    display: inline-block;
+    width: 180px;
+    overflow: hidden;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+    color: var(--color-azul);
+}
+
+main .tendencias-contenido a:hover {
+    text-decoration: underline;
+}
