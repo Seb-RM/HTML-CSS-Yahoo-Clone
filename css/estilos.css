@@ -135,3 +135,37 @@ main .tendencias-contenido a {
 main .tendencias-contenido a:hover {
     text-decoration: underline;
 }
+
+
+/** ===== Footer ===== **/
+
+footer {
+    border-top: 1px solid var(--color-gris-5b);
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    list-style: none;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 20px  
+}
+
+footer  .ajustes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer a {
+    color: var(--color-gris);
+    font-size: 14px;
+}
+
+footer a:hover {
+    color: var(--color-azul);
+}
