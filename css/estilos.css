@@ -1,0 +1,9 @@
+section {
+    background-color: 10px;
+}
+
+div{
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
+}
